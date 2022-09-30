@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateSharks < ActiveRecord::Migration[5.2]
   def change
     create_table :sharks do |t|
